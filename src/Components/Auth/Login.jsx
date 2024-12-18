@@ -1,6 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 import Google from '../../Buttons/Google'
+import Facebook from '../../Buttons/Facebook'
+import Github from '../../Buttons/Github'
 
 const Login = () => {
     return (
@@ -21,8 +23,8 @@ const Login = () => {
                         </div>
                         <div className='grid items-center grid-cols-2 gap-3'>
                             <button className='flex items-center justify-between gap-2 px-4 py-2 border border-gray-300 rounded-md' type='button'><span className='font-semibold '>Google</span><Google /></button>
-                            <button className='flex items-center justify-between gap-2 px-4 py-2 border border-gray-300 rounded-md' type='button'><span className='font-semibold '>Facebook</span><Google /></button>
-                            <button className='flex items-center justify-between gap-2 px-4 py-2 border border-gray-300 rounded-md' type='button'><span className='font-semibold '>Github</span><Google /></button>
+                            <button className='flex items-center justify-between gap-2 px-4 py-2 border border-gray-300 rounded-md' type='button'><span className='font-semibold '>Facebook</span><Facebook /></button>
+                            <button className='flex items-center justify-between gap-2 px-4 py-2 border border-gray-300 rounded-md' type='button'><span className='font-semibold '>Github</span><Github /></button>
                             <button className='flex items-center justify-between gap-2 px-4 py-2 border border-gray-300 rounded-md' type='button'><span className='font-semibold '>Feide</span><Google /></button>
                         </div>
                         <form className=''>
