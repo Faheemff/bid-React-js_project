@@ -2,10 +2,10 @@
 import React from 'react'
 
 const Google = () => {
-    return (
-      <>
-                                  <button className='flex items-center justify-between gap-2 px-4 py-2 border border-gray-300 rounded-md' type='button'><span className='font-semibold '>Google</span>
-                                  <svg
+  return (
+    <>
+      <button className='flex items-center justify-between gap-2 px-4 py-2 border border-gray-300 rounded-md' type='button'><span className='font-semibold '>Google</span>
+        <svg
           role="img"
           height="24"
           width="24"
@@ -27,10 +27,10 @@ const Google = () => {
           <path clipPath="url(#b)" fill="#34A853" d="M0 37l30-23 7.9 1L48 0v48H0z"></path>
           <path clipPath="url(#b)" fill="#4285F4" d="M48 48L17 24l-4-3 35-10z"></path>
         </svg>
-        </button>
-      </>
-       
-      );
+      </button>
+    </>
+
+  );
 }
 
 export default Google
