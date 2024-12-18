@@ -3,6 +3,7 @@ import React from 'react'
 import Google from '../../Buttons/Google'
 import Facebook from '../../Buttons/Facebook'
 import Github from '../../Buttons/Github'
+import Feide from '../../Buttons/Feide'
 
 const Login = () => {
     return (
@@ -25,7 +26,10 @@ const Login = () => {
                             <button className='flex items-center justify-between gap-2 px-4 py-2 border border-gray-300 rounded-md' type='button'><span className='font-semibold '>Google</span><Google /></button>
                             <button className='flex items-center justify-between gap-2 px-4 py-2 border border-gray-300 rounded-md' type='button'><span className='font-semibold '>Facebook</span><Facebook /></button>
                             <button className='flex items-center justify-between gap-2 px-4 py-2 border border-gray-300 rounded-md' type='button'><span className='font-semibold '>Github</span><Github /></button>
-                            <button className='flex items-center justify-between gap-2 px-4 py-2 border border-gray-300 rounded-md' type='button'><span className='font-semibold '>Feide</span><Google /></button>
+                            <button className='flex items-center justify-between gap-2 px-4 py-2 border border-gray-300 rounded-md' type='button'><span className='font-semibold '>Feide</span><Feide /></button>
+                        </div>
+                        <div className='py-5 flex justify-center items-center'>
+                            <span className='text-gray-500 font-semibold'>OR</span>
                         </div>
                         <form className=''>
                             <input className='w-full rounded-[5px] border-[1.8px] border-gray-300 px-5 py-3 mb-4' type="email" placeholder='Enter your email' />
