@@ -8,6 +8,7 @@ import Inputfield from '../../Input/Inputfeild'
 import Header from '../Header'
 import Forgot from '..//../Button/Forgot'
 import Log from '..//../Button/Login'
+import { Link } from 'react-router-dom'
 
 
 const Login = () => {
@@ -24,7 +25,7 @@ const Login = () => {
                             <i className="ri-close-line text-[25px]"></i>
                         </div>
                         <div className='flex justify-end items-center py-8'>
-                            <div>Don`t have an account? <a href="./CreateAccount.jsx" className='text-green-600 font-semibold'>Sign up</a></div>
+                            <div>Don`t have an account? <Link to="./CreateAccount.jsx" className='text-green-600 font-semibold'>Sign up</Link></div>
                         </div>
                         <div className='grid items-center grid-cols-2 gap-3'>
                             <Google />
