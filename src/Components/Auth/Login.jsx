@@ -24,10 +24,10 @@ const Login = () => {
                             <div>Don`t have an account? <a href="#" className='text-green-600 font-semibold'>Sign up</a></div>
                         </div>
                         <div className='grid items-center grid-cols-2 gap-3'>
-                            <button className='flex items-center justify-between gap-2 px-4 py-2 border border-gray-300 rounded-md' type='button'><span className='font-semibold '>Google</span><Google /></button>
-                            <button className='flex items-center justify-between gap-2 px-4 py-2 border border-gray-300 rounded-md' type='button'><span className='font-semibold '>Facebook</span><Facebook /></button>
-                            <button className='flex items-center justify-between gap-2 px-4 py-2 border border-gray-300 rounded-md' type='button'><span className='font-semibold '>Github</span><Github /></button>
-                            <button className='flex items-center justify-between gap-2 px-4 py-2 border border-gray-300 rounded-md' type='button'><span className='font-semibold '>Feide</span><Feide /></button>
+                            <Google />
+                            <Facebook />
+                            <Github />
+                            <Feide />
                         </div>
                         <div className='py-5 flex justify-center items-center'>
                             <span className='text-gray-500 font-semibold'>OR</span>
