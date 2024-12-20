@@ -1,3 +1,29 @@
+@font-face {
+    font-family: 'Kajiro';
+    src: url('./assets/Font/Kajiro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Rimons';
+    src: url('./assets/Font/RIMONS.ttf') format('rimons');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Winter';
+    src: url('./assets/Font/Winter Prime.ttf') format('winter');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

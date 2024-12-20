@@ -5,8 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        kajiro: ['Kajiro'], 
+        rimons: ['Rimons'],
+        winter: ['Winter'],
+      },
+    },
   },
   plugins: [],
 }
+
 
