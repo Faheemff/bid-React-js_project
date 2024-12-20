@@ -5,18 +5,16 @@ import Facebook from '../../ButtonsIcon/Facebook'
 import Github from '../../ButtonsIcon/Github'
 import Feide from '../../ButtonsIcon/Feide'
 import Inputfield from '../../Input/Inputfeild'
-import Header from '../Header'
 import Forgot from '..//../Button/Forgot'
 import Log from '..//../Button/Login'
 import { Link } from 'react-router-dom'
 
 
 const Login = () => {
-    
+
     return (
         <>
             <main className='h-screen w-full bg-black text-white'>
-                <Header />
                 <section className='flex justify-between w-full bg-red-500 px-10'>
                     <div className='h-[500px] bg-green-600 w-[500px]'></div>
                     <div className='h-[550px] bg-white text-black px-16 py-8 w-[500px] rounded-[10px]'>

@@ -1,6 +1,5 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-import Header from '../Header'
 import Google from '../../ButtonsIcon/Google'
 import Facebook from '../../ButtonsIcon/Facebook'
 import Github from '../../ButtonsIcon/Github'
@@ -12,10 +11,12 @@ import { Link } from 'react-router-dom'
 
 
 const CreateAccount = () => {
+    const onSubmit = (e) => {
+        e.preventDefault()
+    }
     return (
         <>
             <main>
-                <Header />
                 <section className='flex justify-between w-full bg-red-500 px-10'>
                     <div className='h-[500px] bg-green-600 w-[500px]'></div>
                     <div className='h-[750px] bg-white text-black px-16 py-8 w-[500px] rounded-[10px]'>
@@ -24,7 +25,7 @@ const CreateAccount = () => {
                             <i className="ri-close-line text-[25px]"></i>
                         </div>
                         <div className='flex justify-end items-center py-8'>
-                            <div>Don`t have an account? <Link to="./Login.jsx" className='text-green-600 font-semibold'>Log in</Link></div>
+                            <div>Don`t have an account? <Link to="/create-account" className="text-green-600 font-semibold">Sign up</Link></div>
                         </div>
                         <div className='grid items-center grid-cols-2 gap-3'>
                             <Google />
@@ -35,7 +36,9 @@ const CreateAccount = () => {
                         <div className='py-5 flex justify-center items-center'>
                             <span className='text-gray-500 font-semibold'>OR</span>
                         </div>
-                        <form>
+                        <form onSubmit={(e) => {
+                            onSubmit(e)
+                        }}>
                             <Inputfeild />
                             <Inputs />
                         </form>
