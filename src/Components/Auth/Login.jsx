@@ -15,7 +15,6 @@ const Login = () => {
     return (
         <>
             <main className='h-screen w-full'>
-                                    <Link to="/createAccount" className='text-green-600 font-semibold'>Sign up</Link>
                 <section className='flex justify-between w-full px-10'>
                     <div className='h-[500px] w-[500px] p-14'>
                         <div className='heading-for-login text-4xl font-semibold pb-2 text-black'>
@@ -25,7 +24,7 @@ const Login = () => {
                             Welcome back! Stay connected with us by logging in using your email address and password. We’re excited to have you with us!
                         </p>
                     </div>
-                    <div className='h-[550px] bg-white text-black px-16 py-8 w-[500px] rounded-[10px]'>
+                    <div className='h-[550px]  border-[1px] border-gray-300 bg-white text-black px-16 py-8 w-[500px] rounded-[10px]'>
                         <div className='flex items-center justify-between'>
                             <h1 className='text-[30px] font-semibold'>Log In</h1>
                             <i className="ri-close-line text-[25px]"></i>

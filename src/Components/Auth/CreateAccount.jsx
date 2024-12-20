@@ -17,7 +17,7 @@ const CreateAccount = () => {
     return (
         <>
             <main>
-                <section className='flex justify-between w-full bg-red-500 px-10'>
+                <section className='flex justify-between w-full px-10'>
                     <div className='h-[500px] w-[500px] p-14'>
                         <div className='heading-for-login text-4xl font-semibold pb-2 text-black'>
                             <h1>Welcome Back : )</h1>
@@ -26,7 +26,7 @@ const CreateAccount = () => {
                             Welcome back! Stay connected with us by logging in using your email address and password. We’re excited to have you with us!
                         </p>
                     </div>
-                    <div className='h-[750px] bg-white text-black px-16 py-8 w-[500px] rounded-[10px]'>
+                    <div className='h-[750px] border-[1px] border-gray-300 bg-white text-black px-16 py-8 w-[500px] rounded-[10px]'>
                         <div className='flex items-center justify-between'>
                             <h1 className='text-[30px] font-semibold'>Sign Up</h1>
                             <i className="ri-close-line text-[25px]"></i>
@@ -61,6 +61,14 @@ const CreateAccount = () => {
                         </div>
                     </div>
                 </section>
+                <footer>
+                    <p className='text-gray-500 text-center'>�� 2023 All rights reserved</p>
+                    <div className='flex justify-center'>
+                        <Link to="/home" className='text-blue-600 font-semibold'>Home</Link>
+                        <span className='mx-4'>|</span>
+                        <Link to="/about" className='text-blue-600 font-semibold'>About</Link>
+                    </div>
+                </footer>
             </main>
         </>
     )
