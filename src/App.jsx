@@ -10,7 +10,9 @@ const App = () => {
 
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
+      {/* <Login /> */}
+      <CreateAccount />
       <Routes>
         <Route path='/createAccount' element={<CreateAccount />}/>
         <Route path='/loginAccount' element={<Login />}/>
