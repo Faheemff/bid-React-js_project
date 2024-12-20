@@ -14,16 +14,23 @@ const Login = () => {
 
     return (
         <>
-            <main className='h-screen w-full bg-black text-white'>
-                <section className='flex justify-between w-full bg-red-500 px-10'>
-                    <div className='h-[500px] bg-green-600 w-[500px]'></div>
+            <main className='h-screen w-full'>
+                <section className='flex justify-between w-full px-10'>
+                    <div className='h-[500px] w-[500px] p-14'>
+                        <div className='heading-for-login text-4xl font-semibold pb-2 text-black'>
+                            <h1>Welcome Back : )</h1>
+                        </div>
+                        <p className='text-[17px] text-black'>
+                            Welcome back! Stay connected with us by logging in using your email address and password. We’re excited to have you with us!
+                        </p>
+                    </div>
                     <div className='h-[550px] bg-white text-black px-16 py-8 w-[500px] rounded-[10px]'>
                         <div className='flex items-center justify-between'>
                             <h1 className='text-[30px] font-semibold'>Log In</h1>
                             <i className="ri-close-line text-[25px]"></i>
                         </div>
                         <div className='flex justify-end items-center py-8'>
-                            <div>Don`t have an account? <Link to="./CreateAccount.jsx" className='text-green-600 font-semibold'>Sign up</Link></div>
+                            <div>Don`t have an account? <Link to="/createAccount" className='text-green-600 font-semibold'>Sign up</Link></div>
                         </div>
                         <div className='grid items-center grid-cols-2 gap-3'>
                             <Google />
