@@ -15,6 +15,7 @@ const Login = () => {
     return (
         <>
             <main className='h-screen w-full'>
+                                    <Link to="/createAccount" className='text-green-600 font-semibold'>Sign up</Link>
                 <section className='flex justify-between w-full px-10'>
                     <div className='h-[500px] w-[500px] p-14'>
                         <div className='heading-for-login text-4xl font-semibold pb-2 text-black'>
