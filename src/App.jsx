@@ -4,7 +4,6 @@ import Login from './Components/Auth/Login'
 import CreateAccount from './Components/Auth/CreateAccount'
 import { Route, Routes } from 'react-router-dom'
 import Header from './Components/Header'
-// import Inputs from "./Input/Inputs"
 
 
 const App = () => {

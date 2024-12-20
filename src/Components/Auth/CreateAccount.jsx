@@ -8,6 +8,7 @@ import Inputfeild from '../../Input/Inputfeild'
 import Inputs from "../../../src/Input/Inputs"
 import Sigin from '../../Button/Sigin'
 import { Link } from 'react-router-dom'
+import Footer from '../Footer'
 
 
 const CreateAccount = () => {
@@ -61,14 +62,7 @@ const CreateAccount = () => {
                         </div>
                     </div>
                 </section>
-                <footer>
-                    <p className='text-gray-500 text-center'>�� 2023 All rights reserved</p>
-                    <div className='flex justify-center'>
-                        <Link to="/home" className='text-blue-600 font-semibold'>Home</Link>
-                        <span className='mx-4'>|</span>
-                        <Link to="/about" className='text-blue-600 font-semibold'>About</Link>
-                    </div>
-                </footer>
+                <Footer />
             </main>
         </>
     )
